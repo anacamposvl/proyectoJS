@@ -1,0 +1,36 @@
+.card-product{
+    width:300px;
+    min-height:430px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-product__image{
+    width: 100%;
+    height:260px;
+}
+
+.card-product__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+.card-product__detail{
+    padding: 15px;
+}
+
+.card-product__detail .detail__name{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.card-product__detail .detail__description{
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+.card-product__detail .detail__price{
+    font-size:1.2rem;
+    font-weight: 600;
+}

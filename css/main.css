@@ -1,0 +1,93 @@
+/*partials*/
+@import './layouts/hero.css';
+@import './components/card-product.css';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+  body {
+    background:black;
+    background-size: cover;
+    padding:20px;
+  }
+
+  
+  header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    transition: .4s;
+    margin-bottom: 60px;
+  }
+  header:hover {
+    background: rgba(255,255,255,0.8);
+    color: #000;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: .5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+th{
+  color: white;
+}
+
+.featured-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
+
+.featured h2{
+  color: white;
+  font-size: 2.6rem;
+  text-align: center;
+  margin:60px;
+}
+
+
+/* dashboard-clientes */
+
+.dashboard-clientes{
+  width: 100%;
+  max-width: 1024px;
+  min-height:300px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.dashboard-clientes__encabezado {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid black;
+}
+.dashboard-clientes__encabezado li{
+  list-style: none;
+}
+
+.cliente-item{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin:10px 0 0 0;
+}
+
+.cliente-item li {
+  list-style: none;
+}

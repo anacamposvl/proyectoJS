@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/main.css"  rel="stylesheet" type="text/css">>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <title>Valentina Store</title>
+</head>
+    
+<body>
+ 
+  <header>
+    <a style="color:white" href="/"><h1>VALENTINA STORE</h1></a>
+    <nav>
+      <a href="#">MEN</a>
+      <a href="#">WOMEN</a>
+      <a href="#">STORES</a>
+      <a href="#">CARRITO</a>
+      <input type="button" value="Registrate" onClick="Registro1()">
+      <input value="Comprar" onclick="Comprar1()" type="button">
+      <input type="text" placeholder="Buscar productos">
+      <button id="boton" value="Buscar" onclick="Buscar()">Buscar</button>
+      </nav>
+      </header>
+     
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <td><input type="text" id="nombre" ></td>
+        </tr>
+        <tr>
+          <th>Apellido</th>
+          <td><input type="text" id="apellido"></td>
+        </tr>
+        <tr>
+          <th>Edad</th>
+          <td><input type="number" id="edad"></td>
+        </tr>
+        <tr>
+          <th>Telefono</th>
+          <td><input type="number" id="telefono"></td>
+        </tr>
+        <th></th>
+        <td><button id="send-button"> Enviar</button></td>
+      </table>
+
+
+      <section class="dashboard-clientes">
+
+        <ul class="dashboard-clientes__encabezado">
+           <li>Nombre</li>
+           <li>Apellido</li>
+           <li>Edad</li>
+           <li>Teléfono</li> 
+        </ul>
+        <article class="dashboard-clientes__filas" id="clientes">
+        </article>
+
+      </section>
+
+
+      <script src="../js/crm.js"></script> <div class="get"></div>
+</body>
+
+</html>

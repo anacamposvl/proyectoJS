@@ -1,0 +1,164 @@
+[
+    {
+        "name":"one piece",
+        "price":780,
+        "image":"https://images.pexels.com/photos/884979/pexels-photo-884979.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "genero":"mujer",
+        "category":"vestidos",
+        "sale":true
+    },
+    {
+        "name":"tacones",
+        "price":1900,
+        "image":"https://images.pexels.com/photos/8927680/pexels-photo-8927680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"zapatos",
+        "sale":true
+    },
+    {
+        "name":"blusa blanca",
+        "price":1200,
+        "image":"https://images.pexels.com/photos/10261189/pexels-photo-10261189.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"remeras",
+        "sale":false
+
+    },
+    {
+        "name":"pantalon negro",
+        "price":"1800",
+        "image":"https://images.pexels.com/photos/3756030/pexels-photo-3756030.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        "genero":"mujer",
+        "category":"pantalones",
+        "sale":false
+    },
+    {
+        "name":"jean azul",
+        "price":"2000",
+        "image":"https://images.pexels.com/photos/10328274/pexels-photo-10328274.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "genero":"mujer",
+        "category":"pantalones",
+        "sale":false
+    },
+    {
+        "name":"jean verde",
+        "price":"2100",
+        "image":"https://d2r9epyceweg5n.cloudfront.net/stores/076/400/products/campera-jean-verde-flecos-51-d3ebbbe868dd2b2f8915957806651130-1024-1024.jpg",
+        "genero":"mujer",
+        "category":"pantalones",
+        "sale":false
+    },
+    {
+        "name":"blusa negra",
+        "price":"1300",
+        "image":"https://images.pexels.com/photos/7759336/pexels-photo-7759336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"blusas",
+        "sale":false
+    },
+    {
+        "name":"blusa verde",
+        "price":"1300",
+        "image":"https://images.pexels.com/photos/4519350/pexels-photo-4519350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"blusas",
+        "sale":true
+    },
+    {
+        "name":"vestido negro",
+        "price":"2300",
+        "image":"https://images.pexels.com/photos/1831789/pexels-photo-1831789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"vestidos",
+        "sale":false
+    },
+    {
+        "name":"vestido blanco",
+        "price":"2000",
+        "image":"https://images.pexels.com/photos/3134960/pexels-photo-3134960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"vestidos",
+        "sale":false
+    },
+    {
+        "name":"vestido gris",
+        "price":"2350",
+        "image":"https://images.pexels.com/photos/7671640/pexels-photo-7671640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"vestidos",
+        "sale":false
+    },
+    {
+        "name":"zapatilla blanco",
+        "price":"4000",
+        "image":"https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"zapatos",
+        "sale":true
+    },
+    {
+        "name":"zapatilla negro",
+        "price":"3500",
+        "image":"https://images.pexels.com/photos/1456737/pexels-photo-1456737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"mujer",
+        "category":"zapatos",
+        "sale":false
+    },
+    {
+        "name":"remera blanca",
+        "price":"1300",
+        "image":"https://images.pexels.com/photos/10353621/pexels-photo-10353621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"hombre",
+        "category":"remeras",
+        "sale":false
+    },
+    {
+        "name":"remera negra",
+        "price":"1300",
+        "image":"https://static.dafiti.com.ar/p/reebok-8001-779055-1-product.jpg",
+        "genero":"hombre",
+        "category":"remeras",
+        "sale":false
+    },
+    {
+        "name":"remera gris",
+        "price":"1300",
+        "image":"https://images.pexels.com/photos/6311139/pexels-photo-6311139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"hombre",
+        "category":"remeras",
+        "sale":true
+    },
+    {
+        "name":"pantalon jean",
+        "price":"3000",
+        "image":"https://taverniti.vteximg.com.br/arquivos/ids/229162/menu-denim-banner-1.jpg?v=637596162210800000",
+        "genero":"hombre",
+        "category":"pantalones",
+        "sale":false
+    },
+    {
+        "name":"pantalon negro",
+        "price":"3200",
+        "image":"https://images.pexels.com/photos/5738108/pexels-photo-5738108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"hombre",
+        "category":"pantalones",
+        "sale":false
+    },
+    {
+        "name":"zapatilla negra",
+        "price":"4000",
+        "image":"https://images.pexels.com/photos/2027495/pexels-photo-2027495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"hombre",
+        "category":"zapatos",
+        "sale":true
+    },
+    {
+        "name":"zapatilla blanca",
+        "price":"5000",
+        "image":"https://images.pexels.com/photos/4065148/pexels-photo-4065148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "genero":"hombre",
+        "category":"zapatos",
+        "sale":false
+    }
+
+]
